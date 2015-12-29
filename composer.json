@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Continuum\\Laboratory\\": "/src"
+            "Continuum\\Laboratory\\": "src/"
         }
     },
     "minimum-stability": "dev"
