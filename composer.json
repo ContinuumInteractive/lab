@@ -1,0 +1,14 @@
+{
+    "name": "continuum/lab",
+    "description": "Lab (workbench) for Laravel package development",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Bonner",
+            "email": "david@continuuminteractive.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
