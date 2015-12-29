@@ -17,10 +17,5 @@
             "Continuum\\Laboratory\\": "/src"
         }
     },
-    "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "*"
-        }
-    }
+    "minimum-stability": "dev"
 }
