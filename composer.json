@@ -1,6 +1,6 @@
 {
-    "name": "continuum/lab",
-    "description": "Lab (workbench) for Laravel package development.",
+    "name": "continuum/laboratory",
+    "description": "Laboratory (workbench) for Laravel package development.",
     "type": "package",
     "require": {
         "orchestra/testbench": "~3.0"
@@ -12,5 +12,15 @@
             "email": "david@continuuminteractive.com"
         }
     ],
-    "minimum-stability": "dev"
+    "autoload": {
+        "psr-4": {
+            "Continuum\\Laboratory\\": "/src"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "*"
+        }
+    }
 }
