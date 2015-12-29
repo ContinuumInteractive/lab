@@ -9,6 +9,11 @@
             "email": "david@continuuminteractive.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Continuum\\Lab\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
