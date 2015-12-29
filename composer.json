@@ -1,6 +1,6 @@
 {
     "name": "continuum/laboratory",
-    "description": "Laboratory (workbench) for Laravel package development.",
+    "description": "Laboratory (workbench) for Laravel development.",
     "type": "package",
     "require": {
         "orchestra/testbench": "~3.0"
