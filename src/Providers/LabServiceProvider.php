@@ -1,6 +1,6 @@
 <?php
 
-namespace Continuum\Lab\Providers;
+namespace Continuum\Laboratory\Providers;
 
 use Symfony\Component\Finder\Finder;
 use Illuminate\Filesystem\Filesystem;
