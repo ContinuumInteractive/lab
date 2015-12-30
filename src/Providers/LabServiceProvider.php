@@ -16,6 +16,12 @@ class LabServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadAutoloader(base_path('lab'));
+
+        $this->publishes([
+            __DIR__.'/../config/laboratory.php' => config_path('laboratory.php'),
+        ]);
+
+        $this->registerProviders();
     }
 
     /**
@@ -26,6 +32,18 @@ class LabServiceProvider extends ServiceProvider
     public function register()
     {
         //...
+    }
+
+    /**
+     * Register any service providers
+     *
+     * @return void
+     */
+    protected function registerProviders()
+    {
+        foreach ($this->app->config['laboratory.providers'] as $provider) {
+            $this->app->register($provider);
+        }
     }
 
     /**
